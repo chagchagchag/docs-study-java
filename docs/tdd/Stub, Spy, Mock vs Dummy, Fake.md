@@ -34,11 +34,9 @@ permalink: /docs/tdd/stub-spy-mock-dummy-fake
 <br>
 
 
-### Stub, Spy, Mock vs Dummy, Fake
+### Fake 객체, 대역, Stub 이란?
 {: .fs-6 .fw-700 }
 <br>
-
-### Fake 객체, 대역, Stub 이란?
 테스트 코드 작성시 실제 객체가 아닌 단순한 객체를 이용해 어떤 동작을 하게끔 해서 결과값이나 동작을 테스트 하는 경우가 많다.<br>
 이런 경우 Fake 객체를 사용하거나 대역을 수행하는 객체를 도입한다.
 - Fake 객체
