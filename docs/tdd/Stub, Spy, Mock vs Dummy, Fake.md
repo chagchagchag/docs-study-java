@@ -61,9 +61,9 @@ permalink: /docs/tdd/stub-spy-mock-dummy-fake
 
 ### Stub, Stub 클래스, Mock, Dummy, Fake
 {: .fs-6 .fw-700 }
-- Mock, Dummy, Fake 모두 테스트를 위한 객체를 만드는 것을 의미한다.<br>
-- Stub 은 가짜 객체로 정의한 Mock, Dummy, Fake 객체가 수행하는 `대사` 를 의미한다. 쉽게 설명하면 Mock, Dummy, Fake 객체의 특정 메서드가 어떤 입력값을 받았을 때 어떤 값을 반환할 지 등을 정의하는 것을 `Stubbing`, `Stub` 이라고 이야기한다.
-- 그런데 이 Stub 은 클래스로도 따로 정의할 수 있다. 실제 테스트하려는 클래스를 상속(확장)한 자식(확장)클래스 내에서 테스트를 원하는 메서드를 오버라이딩하는 방식으로 흔히 Stub 클래스를 정의한다. 
+- `Mock, Dummy, Fake` : Mock, Dummy, Fake 모두 테스트를 위한 객체를 만드는 것을 의미한다.<br>
+- `Stub` : Stub 은 가짜 객체로 정의한 Mock, Dummy, Fake 객체가 수행하는 `대사` 를 의미한다. 쉽게 설명하면 Mock, Dummy, Fake 객체의 특정 메서드가 어떤 입력값을 받았을 때 어떤 값을 반환할 지 등을 정의하는 것을 `Stubbing`, `Stub` 이라고 이야기한다.<br>
+- `Stub 클래스` : 그런데 이 Stub 은 클래스로도 따로 정의할 수 있다. 실제 테스트하려는 클래스를 상속(확장)한 자식(확장)클래스 내에서 테스트를 원하는 메서드를 오버라이딩하는 방식으로 흔히 Stub 클래스를 정의한다.<br>
 <br>
 
 **Mock, Stub**<br>
